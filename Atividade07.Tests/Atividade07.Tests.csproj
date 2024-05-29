@@ -28,4 +28,8 @@
     <ProjectReference Include="..\Atividade07\Atividade07.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
 </Project>
