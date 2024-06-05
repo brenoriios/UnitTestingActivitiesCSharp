@@ -8,7 +8,8 @@ public class UserServiceTests
     private readonly IDatabase _db = Substitute.For<IDatabase>();
     private readonly UserService _sut;
 
-    public UserServiceTests(){
+    public UserServiceTests()
+    {
         _sut = new UserService(_db);
     }
 
@@ -20,6 +21,8 @@ public class UserServiceTests
 
         // Act
         var result = Assert.Throws<ArgumentException>(() => _sut.SaveUser(user));
+
+        // Assert
         Assert.Contains("User must have a name and email", result.Message);
     }
 
@@ -31,6 +34,8 @@ public class UserServiceTests
 
         // Act
         var result = Assert.Throws<ArgumentException>(() => _sut.SaveUser(user));
+
+        // Assert
         Assert.Contains("User must have a name and email", result.Message);
     }
 
@@ -42,6 +47,8 @@ public class UserServiceTests
 
         // Act
         var result = Assert.Throws<ArgumentException>(() => _sut.SaveUser(user));
+
+        // Assert
         Assert.Contains("User must have a name and email", result.Message);
     }
 
@@ -53,6 +60,8 @@ public class UserServiceTests
 
         // Act
         var result = Assert.Throws<ArgumentException>(() => _sut.SaveUser(user));
+
+        // Assert
         Assert.Contains("User must have a name and email", result.Message);
     }
 

@@ -373,16 +373,16 @@ FodyWeavers.xsd
 # /Atividade06.Tests/PointTests.cs
 # /Atividade06.Tests/PointTests.cs
 # Ignorar diret�rios de testes para cada atividade
-/Atividade14.Tests/EventHandlerTests.cs
-/Atividade13.Tests/FactorialCalculatorTests.cs
-/Atividade11.Tests/CustomSorterTests.cs
-/Atividade10.Tests/UserManagerTests.cs
-/Atividade09.Tests/ItemCollectionTests.cs
-/Atividade08.Tests/StatisticsTests.cs
-/Atividade07.Tests/UserServiceTests.cs
-/Atividade06.Tests/PointTests.cs
-/Atividade06.Tests/PointTests.cs
+# /Atividade14.Tests/EventHandlerTests.cs
+# /Atividade13.Tests/FactorialCalculatorTests.cs
+# /Atividade11.Tests/CustomSorterTests.cs
+# /Atividade10.Tests/UserManagerTests.cs
+# /Atividade09.Tests/ItemCollectionTests.cs
+# /Atividade08.Tests/StatisticsTests.cs
+# /Atividade07.Tests/UserServiceTests.cs
+# /Atividade06.Tests/PointTests.cs
+# /Atividade06.Tests/PointTests.cs
 
-/Atividade15.Tests/DetectTextImageIntegrationTests.cs
-/Atividade15.Tests/DetectTextimageUnitTests.cs
+# /Atividade15.Tests/DetectTextImageIntegrationTests.cs
+# /Atividade15.Tests/DetectTextimageUnitTests.cs
 
